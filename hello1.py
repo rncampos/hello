@@ -1,4 +1,4 @@
-def say_hi():
-    print('Hi, my name is Ricardo Campos.')
+def say_hi(nome):
+    print(f'Hi, my name is {nome}.')
 
-__version__ = '0.1'
+__version__ = '0.2'
