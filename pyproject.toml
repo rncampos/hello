@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hello"
+version = "0.1"
+description = "Hello Distribution Module"
+authors = [
+    { name="Ricardo Campos", email="your_email@example.com" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+
+# Como é apenas um módulo, não um package:
+[tool.setuptools]
+py-modules = ["hello"]
